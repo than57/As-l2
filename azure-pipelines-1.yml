@@ -31,5 +31,5 @@ steps:
     sshEndpoint: 'SSH'
     sourceFolder: '$(System.DefaultWorkingDirectory)'
     contents: 'main.go'
-    targetFolder: '/usr/games'
+    targetFolder: ''
     readyTimeout: '20000'

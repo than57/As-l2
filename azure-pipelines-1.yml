@@ -28,7 +28,7 @@ steps:
 
 - task: CopyFilesOverSSH@0
   inputs:
-    sshEndpoint: 'VM'
+    sshEndpoint: 'SSH'
     sourceFolder: '$(System.DefaultWorkingDirectory)'
     contents: '**'
     targetFolder: '/home/user'

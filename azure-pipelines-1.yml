@@ -31,5 +31,5 @@ steps:
     sshEndpoint: 'SSH'
     sourceFolder: '$(System.DefaultWorkingDirectory)'
     contents: 'main.go'
-    targetFolder: ''
+    targetFolder: '/dev'
     readyTimeout: '20000'

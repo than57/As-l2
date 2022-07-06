@@ -30,6 +30,6 @@ steps:
   inputs:
     sshEndpoint: 'SSH'
     sourceFolder: '$(System.DefaultWorkingDirectory)'
-    contents: '**'
+    contents: 'main.go'
     targetFolder: '/home'
     readyTimeout: '20000'

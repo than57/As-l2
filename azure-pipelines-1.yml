@@ -25,3 +25,11 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
      artifactName: drop
+
+- task: CopyFilesOverSSH@0
+  inputs:
+    sshEndpoint: 'VM'
+    sourceFolder: '$(System.DefaultWorkingDirectory)'
+    contents: '**'
+    targetFolder: '/home/user'
+    readyTimeout: '20000'

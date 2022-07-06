@@ -31,5 +31,5 @@ steps:
     sshEndpoint: 'SSH'
     sourceFolder: '$(System.DefaultWorkingDirectory)'
     contents: '**'
-    targetFolder: '/home/user'
+    targetFolder: '/home/user/Mysite'
     readyTimeout: '20000'
